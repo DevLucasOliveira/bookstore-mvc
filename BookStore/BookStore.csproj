@@ -129,6 +129,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Context\DataContext.cs" />
     <Compile Include="Controllers\AuthorController.cs" />
+    <Compile Include="Controllers\BookController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TesteController.cs" />
     <Compile Include="Filters\LogActionFilter.cs" />
@@ -142,7 +143,9 @@
     <Compile Include="Repositories\AuthorRepository.cs" />
     <Compile Include="Repositories\Interfaces\IAuthorRepository.cs" />
     <Compile Include="RouteConstraints\ValuesConstraint.cs" />
+    <Compile Include="Validators\CheckAgeValidator.cs" />
     <Compile Include="ViewModels\BookAuthorViewModel.cs" />
+    <Compile Include="ViewModels\EditorBookViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -185,6 +188,11 @@
     <Content Include="Views\Author\Create.cshtml" />
     <Content Include="Views\Author\Edit.cshtml" />
     <Content Include="Views\Author\Delete.cshtml" />
+    <Content Include="Views\Book\Create.cshtml" />
+    <Content Include="Views\Book\Partials\EditorBookPartial.cshtml" />
+    <Content Include="Views\Book\Edit.cshtml" />
+    <Content Include="Views\Book\Index.cshtml" />
+    <Content Include="Views\Shared\_LayoutNew.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

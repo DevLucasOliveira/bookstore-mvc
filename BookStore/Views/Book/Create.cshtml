@@ -1,0 +1,35 @@
+﻿@model BookStore.ViewModels.EditorBookViewModel
+
+@{
+    ViewBag.Title = "Create";
+    //Layout = "~/Views/Shared/_LayoutNew.cshtml";
+}
+
+<h2>Novo Livro</h2>
+
+<form>
+
+    @Html.ValidationSummary(true,"", new { @class = "text-danger" })
+
+    <div class="alert alert-danger">
+        @Html.ValidationMessage("Mensagem")
+    </div>
+
+    @Html.Partial("Partials/EditorBookPartial", Model)
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@*@section menu{
+    <div>
+        Olá, você está na página de criação
+        <p>
+            <a href="@Url.Action("Index")">Voltar</a>
+        </p>
+    </div>
+}*@
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

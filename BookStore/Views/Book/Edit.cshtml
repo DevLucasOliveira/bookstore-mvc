@@ -1,0 +1,23 @@
+﻿}@model BookStore.ViewModels.EditorBookViewModel
+
+@{
+    ViewBag.Title = "Editando livro...";
+}
+
+<h2>Novo Livro</h2>
+
+<form>
+    
+    @Html.HiddenFor(model => model.Id);
+    @Html.Partial("Partials/EditorBookPartial", Model)
+
+    <button type="submit" class="btn btn-primary">Alterar</button>
+</form>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+<h2>Edit</h2>
+
