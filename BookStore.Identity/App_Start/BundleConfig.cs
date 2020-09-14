@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace BookStore
+namespace BookStore.Identity
 {
     public class BundleConfig
     {
@@ -25,8 +25,6 @@ namespace BookStore
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
-                      //"~/Content/site.css"));
-
         }
     }
 }

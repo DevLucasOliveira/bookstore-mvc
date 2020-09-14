@@ -11,6 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Api", "01 - Api", "{13
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{1F422FA4-CAB5-41D7-ADFE-8A0ACB7AA8D9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Identity", "03 - Identity", "{9D4247A6-B4E5-4789-AB33-1E85FBDCF584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Identity", "BookStore.Identity\BookStore.Identity.csproj", "{C8BDE47B-8EE6-47B9-8B35-16601C89D756}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Azure", "04 - Azure", "{3FEEAA77-5B91-469E-86FD-2C7012A7E236}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +31,10 @@ Global
 		{FDE296E4-928F-4E92-B05E-4BA002F5233D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDE296E4-928F-4E92-B05E-4BA002F5233D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDE296E4-928F-4E92-B05E-4BA002F5233D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8BDE47B-8EE6-47B9-8B35-16601C89D756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BDE47B-8EE6-47B9-8B35-16601C89D756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BDE47B-8EE6-47B9-8B35-16601C89D756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BDE47B-8EE6-47B9-8B35-16601C89D756}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4AFE3E23-9CFA-4104-95F1-6F6F8B1795C5} = {131AA0EE-DE54-4274-AD8A-7BBA54E794A6}
 		{FDE296E4-928F-4E92-B05E-4BA002F5233D} = {1F422FA4-CAB5-41D7-ADFE-8A0ACB7AA8D9}
+		{C8BDE47B-8EE6-47B9-8B35-16601C89D756} = {9D4247A6-B4E5-4789-AB33-1E85FBDCF584}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF26D90C-6D4F-4512-B8CD-DFE8B398C349}
